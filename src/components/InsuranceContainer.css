@@ -1,0 +1,208 @@
+.span {
+  color: var(--color-darkslategray-100);
+}
+.samriddh-kendra1 {
+  font-weight: 500;
+}
+.offerings {
+  font-weight: 600;
+  color: var(--highlight-head);
+}
+.samriddh-kendra-offerings-container1 {
+  width: 100%;
+}
+.samriddh-kendra-offerings-container {
+  margin: 0;
+  width: 697px;
+  position: relative;
+  font-size: inherit;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  font-family: inherit;
+}
+.offerings-header {
+  width: 869px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.loan-card-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-darkslateblue-200);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.loan-card-image1 {
+  position: absolute;
+  top: 420.3px;
+  left: 146px;
+  background-color: var(--color-deepskyblue-100);
+  width: 307.4px;
+  height: 75.7px;
+  z-index: 2;
+}
+.offering-item {
+  width: 968px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -243px;
+  bottom: 0;
+}
+.ipsum-has-been,
+.loan {
+  position: relative;
+  z-index: 2;
+}
+.loan {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 72px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.ipsum-has-been {
+  width: 432px;
+  font-size: var(--h3-size);
+  line-height: 37px;
+  font-family: var(--h2);
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.offering-description {
+  width: 697px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  max-width: 157%;
+  flex-shrink: 0;
+}
+.insurance-info,
+.rectangle-div {
+  position: absolute;
+  box-sizing: border-box;
+}
+.insurance-info {
+  top: 90px;
+  left: 773px;
+  width: 725px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-71xl) var(--padding-121xl) var(--padding-89xl-3);
+  gap: var(--gap-48xl);
+  max-width: 100%;
+}
+.rectangle-div {
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-100);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.loan1 {
+  margin: 0;
+  position: absolute;
+  top: 198px;
+  left: 183px;
+  font-size: inherit;
+  line-height: 37px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.group-icon {
+  position: absolute;
+  top: 231px;
+  left: 153px;
+  width: 438px;
+  height: 435.4px;
+  z-index: 2;
+}
+.rectangle-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-size: var(--font-size-116xl);
+  color: var(--color-whitesmoke-400);
+  font-family: var(--h2);
+}
+.offerings-content {
+  align-self: stretch;
+  height: 780px;
+  position: relative;
+  max-width: 100%;
+  color: var(--color-white);
+}
+.insurance-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-30xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-zilla-slab);
+}
+@media screen and (max-width: 825px) {
+  .loan,
+  .samriddh-kendra-offerings-container {
+    font-size: var(--font-size-10xl);
+    line-height: 58px;
+  }
+  .loan1 {
+    font-size: var(--font-size-35xl);
+    line-height: 22px;
+  }
+  .offerings-content {
+    height: auto;
+    min-height: 780;
+  }
+  .insurance-container {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .loan,
+  .samriddh-kendra-offerings-container {
+    font-size: var(--font-size-3xl);
+    line-height: 43px;
+  }
+  .ipsum-has-been {
+    font-size: var(--font-size-lgi);
+    line-height: 30px;
+  }
+  .loan1 {
+    font-size: var(--font-size-15xl);
+    line-height: 15px;
+  }
+}

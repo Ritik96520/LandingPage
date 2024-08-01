@@ -1,0 +1,354 @@
+.our {
+  font-weight: 500;
+}
+.trusted-financial-partners {
+  font-weight: 600;
+  color: var(--highlight-head);
+}
+.span2 {
+  color: var(--color-darkslategray-300);
+}
+.we-work-only-with-best {
+  font-weight: 500;
+}
+.our-trusted-financial-container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 66px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  font-family: inherit;
+}
+.our-trusted-financial-partners-wrapper {
+  width: 1288px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-54xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logo-placeholder-one {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.chola-logo-icon,
+.mannapuram-finance-logo,
+.paysense-logo-icon {
+  position: absolute;
+  top: 82px;
+  left: 101px;
+  width: 164px;
+  height: 52px;
+  object-fit: cover;
+  z-index: 2;
+}
+.chola-logo-icon,
+.paysense-logo-icon {
+  top: 189px;
+  left: 83px;
+  width: 187px;
+  height: 58px;
+}
+.chola-logo-icon {
+  top: 307px;
+  width: 172px;
+  height: 70px;
+}
+.frame-child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.faircent-logo-icon {
+  position: absolute;
+  top: 26px;
+  left: 18px;
+  width: 148px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 3;
+}
+.frame-div,
+.recognition-logos-child {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.frame-div {
+  top: 304px;
+  left: 334px;
+  width: 218px;
+  height: 77px;
+  z-index: 2;
+}
+.recognition-logos-child {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.hdfc-bank-logo {
+  position: absolute;
+  height: calc(100% - 4px);
+  top: 2px;
+  bottom: 2px;
+  left: 7px;
+  max-height: 100%;
+  width: 130px;
+  object-fit: cover;
+  z-index: 3;
+}
+.financial-partners-child,
+.recognition-logos {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.recognition-logos {
+  top: 304px;
+  left: 578px;
+  width: 169px;
+  height: 77px;
+  z-index: 2;
+}
+.financial-partners-child {
+  top: 0;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.indian-bank-logo {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 141px;
+  height: 47px;
+  object-fit: cover;
+  z-index: 3;
+}
+.financial-partners,
+.partner-names-inner {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.financial-partners {
+  top: 304px;
+  left: 1244px;
+  width: 177px;
+  height: 77px;
+  z-index: 2;
+}
+.partner-names-inner {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.smfg-india-logo {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 104px;
+  height: 45px;
+  object-fit: cover;
+  z-index: 3;
+}
+.partner-names-child1,
+.partner-names4 {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.partner-names4 {
+  top: 178px;
+  left: 1245px;
+  width: 176px;
+  height: 77px;
+  z-index: 2;
+}
+.partner-names-child1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.bandhan-bank-logo {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  width: 143px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 3;
+}
+.frame-child4,
+.partner-names5 {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.partner-names5 {
+  top: 62px;
+  left: 1245px;
+  width: 176px;
+  height: 77px;
+  z-index: 2;
+}
+.frame-child4 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.finnable-logo-icon {
+  position: absolute;
+  top: 18px;
+  left: 11px;
+  width: 107px;
+  height: 40px;
+  object-fit: cover;
+  z-index: 3;
+}
+.rectangle-parent2 {
+  position: absolute;
+  top: 178px;
+  left: 574px;
+  background-color: var(--color-white);
+  width: 169px;
+  height: 77px;
+  z-index: 2;
+}
+.jana-small-finance-bank-logo,
+.lendingkart-logo-icon,
+.utakrsh-small-finance-bank-log {
+  position: absolute;
+  top: 172px;
+  left: 344px;
+  width: 131px;
+  height: 75px;
+  object-fit: cover;
+  z-index: 2;
+}
+.jana-small-finance-bank-logo,
+.lendingkart-logo-icon {
+  top: 69px;
+  width: 148px;
+  height: 77px;
+}
+.jana-small-finance-bank-logo {
+  top: 76px;
+  left: 577px;
+  width: 123px;
+  height: 65px;
+}
+.bank-of-baroda-logo,
+.piramal-finance-logo,
+.union-bank-logo {
+  position: absolute;
+  top: 309px;
+  left: 807px;
+  width: 104px;
+  height: 48px;
+  object-fit: cover;
+  z-index: 2;
+}
+.bank-of-baroda-logo,
+.union-bank-logo {
+  top: 189px;
+  left: 800px;
+  width: 135px;
+  height: 52px;
+}
+.bank-of-baroda-logo {
+  top: 86px;
+  left: 807px;
+  width: 115px;
+  height: 37px;
+}
+.bajaj-finserve-logo,
+.iifl-finance-logo,
+.yes-bank-logo {
+  position: absolute;
+  top: 316px;
+  left: 1026px;
+  width: 104px;
+  height: 44px;
+  object-fit: cover;
+  z-index: 2;
+}
+.bajaj-finserve-logo,
+.yes-bank-logo {
+  top: 194px;
+  width: 118px;
+}
+.bajaj-finserve-logo {
+  top: 91px;
+  width: 104px;
+  height: 35px;
+}
+.logo-grid {
+  margin-left: -7px;
+  height: 439px;
+  width: 1535px;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 102%;
+}
+.partner-logos,
+.partners {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.partners {
+  flex-direction: column;
+  padding: 0 0 var(--padding-15xl);
+  box-sizing: border-box;
+  gap: var(--gap-27xl);
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-zilla-slab);
+}
+@media screen and (max-width: 1425px) {
+  .our-trusted-financial-partners-wrapper {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .our-trusted-financial-container {
+    font-size: var(--font-size-10xl);
+    line-height: 53px;
+  }
+  .partners {
+    gap: var(--gap-4xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .our-trusted-financial-container {
+    font-size: var(--font-size-3xl);
+    line-height: 40px;
+  }
+}

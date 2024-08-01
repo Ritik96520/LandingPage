@@ -1,0 +1,150 @@
+.screenshot-2024-06-16-at-803-icon {
+  height: 152px;
+  width: 234px;
+  top: -73px;
+  right: 35px;
+  object-fit: contain;
+  z-index: 1;
+}
+.div1,
+.process-steps-child,
+.screenshot-2024-06-16-at-803-icon {
+  position: absolute;
+  margin: 0 !important;
+}
+.process-steps-child {
+  height: 64px;
+  width: 64px;
+  right: 131px;
+  bottom: -31px;
+  border-radius: 50%;
+  background-color: var(--color-darkslateblue-200);
+  border: 0 solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.div1 {
+  right: 152px;
+  bottom: -38px;
+  line-height: 72px;
+  display: inline-block;
+  min-width: 18px;
+  z-index: 2;
+}
+.partner-names-item {
+  width: 327px;
+  height: 348px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.select-loan-offer {
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+  font-weight: 600;
+  z-index: 1;
+}
+.select-loan-offer-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg);
+}
+.out-of-multiple {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-2-size);
+  line-height: 28px;
+  color: var(--color-gray-200);
+  z-index: 1;
+}
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.step3 {
+  position: relative;
+  line-height: 35px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 52px;
+  z-index: 3;
+}
+.step-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-7xl) 0 var(--padding-xl);
+  font-size: var(--body-2-size);
+  color: var(--color-darkslateblue-200);
+}
+.partner-names3,
+.process-steps1 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.partner-names3 {
+  border-radius: var(--br-13xl);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-81xl) var(--padding-base) var(--padding-8xl)
+    var(--padding-mid);
+  gap: var(--gap-29xl);
+  font-size: var(--font-size-7xl);
+  color: var(--highlight-head);
+  font-family: var(--h2);
+}
+.process-steps1 {
+  flex-direction: row;
+  position: relative;
+  min-width: 301px;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-white);
+  font-family: var(--font-zilla-slab);
+}
+@media screen and (max-width: 825px) {
+  .div1 {
+    font-size: var(--font-size-9xl);
+    line-height: 58px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div1,
+  .select-loan-offer {
+    font-size: var(--font-size-2xl);
+    line-height: 43px;
+  }
+  .select-loan-offer {
+    line-height: 28px;
+  }
+  .out-of-multiple,
+  .step3 {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+  .step3 {
+    line-height: 28px;
+  }
+  .partner-names3 {
+    gap: var(--gap-5xl);
+  }
+}

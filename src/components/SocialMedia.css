@@ -1,0 +1,80 @@
+.instagram-1-icon {
+  height: 74px;
+  width: 74px;
+  position: relative;
+  object-fit: cover;
+  min-height: 74px;
+  z-index: 1;
+}
+.linkedin-2-icon {
+  width: 66px;
+  height: 66px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.linked-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-9xs) 0 0;
+}
+.telephone-icon {
+  height: 28.9px;
+  width: 28.3px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 17.8px;
+  left: 18.5px;
+  z-index: 1;
+}
+.telephone-1-icon {
+  height: 66px;
+  width: 66px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.contact-container,
+.contact-elements {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contact-elements {
+  flex-direction: row;
+  position: relative;
+}
+.contact-container {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.mail-1-1 {
+  width: 71px;
+  height: 71px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.mail-container,
+.social-media {
+  display: flex;
+  align-items: flex-start;
+}
+.mail-container {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.social-media {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+@media screen and (max-width: 450px) {
+  .social-media {
+    flex-wrap: wrap;
+  }
+}

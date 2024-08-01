@@ -1,0 +1,50 @@
+.insurance-button-child {
+  height: 75.7px;
+  width: 307.4px;
+  position: relative;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-mediumblue);
+  box-sizing: border-box;
+  display: none;
+}
+.apply-for-loan {
+  position: relative;
+  line-height: 48px;
+  font-weight: 600;
+  white-space: nowrap;
+  z-index: 4;
+}
+.frame-inner {
+  width: 37.8px;
+  height: 14.7px;
+  position: relative;
+  z-index: 4;
+}
+.insurance-button-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-4xs-1);
+}
+.insurance-button {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-mediumblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-20xl) var(--padding-smi)
+    var(--padding-42xl);
+  gap: var(--gap-7xl-4);
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-lgi-9);
+  color: var(--highlight-head);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 825px) {
+  .insurance-button {
+    flex-wrap: wrap;
+  }
+}

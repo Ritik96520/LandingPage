@@ -1,0 +1,104 @@
+.feedback-elements-child,
+.frame-child6 {
+  position: relative;
+  backdrop-filter: blur(147.82px);
+  border-radius: 10.46px;
+  display: none;
+}
+.feedback-elements-child {
+  align-self: stretch;
+  height: 412.1px;
+  background-color: var(--color-white);
+}
+.frame-child6 {
+  height: 288px;
+  width: 368px;
+  background-color: var(--color-lightgray);
+  max-width: 100%;
+}
+.loan-icon {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  border-radius: var(--br-8xs);
+  width: 65.5px;
+  height: 33px;
+  z-index: 3;
+}
+.loan-circle {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 10px;
+  height: 10px;
+  z-index: 4;
+}
+.loan-icon-parent {
+  height: 38px;
+  width: 65.5px;
+  position: relative;
+}
+.rectangle-parent4 {
+  align-self: stretch;
+  backdrop-filter: blur(147.82px);
+  border-radius: 10.46px;
+  background-color: var(--color-lightgray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-107xl) var(--padding-xl) var(--padding-105xl)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+}
+.all-necessary-integrations {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 153.32%;
+  font-weight: 700;
+  z-index: 2;
+}
+.all-necessary-integrations-wer-wrapper {
+  width: 339.3px;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl);
+}
+.all-necessary-integrations-wer-wrapper,
+.feedback-elements,
+.feedback-elements-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.feedback-elements {
+  flex: 1;
+  backdrop-filter: blur(147.82px);
+  border-radius: 10.46px;
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: 0 0 var(--padding-18xl-5);
+  gap: var(--gap-lgi);
+  z-index: 1;
+}
+.feedback-elements-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  text-align: left;
+  font-size: var(--font-size-3xl-4);
+  color: var(--highlight-head);
+  font-family: var(--font-pt-serif);
+}
+@media screen and (max-width: 450px) {
+  .all-necessary-integrations {
+    font-size: var(--font-size-lg);
+    line-height: 27px;
+  }
+}

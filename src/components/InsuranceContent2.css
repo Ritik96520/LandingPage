@@ -1,0 +1,127 @@
+.insurance-content-child {
+  height: 89px;
+  width: 1512px;
+  position: relative;
+  box-shadow: 0 4px 26.7px rgba(0, 0, 0, 0.13);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.samriddh {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.46px;
+  line-height: 32px;
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+  z-index: 1;
+}
+.main-content {
+  width: 420.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-6) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-400);
+  font-family: var(--font-newsreader);
+}
+.about-us,
+.products {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  letter-spacing: -0.46px;
+  line-height: 32px;
+  font-weight: 500;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.about-us {
+  left: 0;
+  min-width: 106px;
+  white-space: nowrap;
+}
+.products {
+  left: 169px;
+  min-width: 104px;
+}
+.navigation {
+  height: 32px;
+  width: 273px;
+  position: relative;
+}
+.contact-us {
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+.become-our-partner,
+.contact-us,
+.login {
+  position: relative;
+  letter-spacing: -0.46px;
+  line-height: 32px;
+  font-weight: 500;
+  z-index: 1;
+}
+.become-our-partner {
+  white-space: nowrap;
+}
+.login {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  min-width: 63px;
+}
+.insurance-content,
+.user-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.user-actions {
+  width: 552px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.insurance-content {
+  box-shadow: 0 4px 26.7px rgba(0, 0, 0, 0.13);
+  background-color: var(--color-white);
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-51xl) var(--padding-8xl-4);
+  box-sizing: border-box;
+  gap: var(--gap-44xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1425px) {
+  .user-actions {
+    display: none;
+  }
+}
+@media screen and (max-width: 825px) {
+  .insurance-content {
+    gap: var(--gap-12xl);
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .insurance-content {
+    gap: var(--gap-base);
+  }
+}
